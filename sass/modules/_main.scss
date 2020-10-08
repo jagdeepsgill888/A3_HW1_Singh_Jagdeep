@@ -11,7 +11,7 @@ body {
 
 }
 
-.sidebarC { background-color:#505050; color: white; position:relative; }
+.sidebarC { background-color: $sidebarC-bg-color; color: white; position:relative; }
 
 #topPanel { margin:0; position:relative; }
 .bannerContainer { padding:0; }
@@ -19,7 +19,7 @@ body {
 .profPanel { 
     width:445px; 
     height:150px; 
-    background-color: #f2f2f2; 
+    background-color: $profPanel-bg-color; 
     position: absolute;
     left:40px;
     top:70px;
@@ -35,7 +35,7 @@ body {
     }
    
    
-   ul { color:#9e9e9e; padding-top:5px; font-weight:300; }
+   ul { color: $profPanel-ul-color; padding-top:5px; font-weight:300; }
    span { margin-right:8px; }
    img { position:absolute; right:-20px; top:-20px;}
 }
