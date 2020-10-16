@@ -1,0 +1,15 @@
+How to fetch and use data with AJAX request ? 
+         (Dynamic Content Plan)
+
+ Convert data from ClassData.js to a json file.
+
+Add AJAX request using the Fetch API in main.js
+> inculde a error message if teching fails
+> add a fuction handleDataSet to untilze the data on the webpage
+  - add apporitate class or elemnt to index.html
+  - use innerHTML and textContent.
+  place handleDataSet call in fetch API.
+
+
+  If the AJAX request is successfu, data will display in the page,
+otherwise it will display err in console. 
